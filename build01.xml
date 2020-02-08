@@ -1,4 +1,4 @@
-<project name="Projeto da Modulo de Configuracao" default="main" basedir=".">
+<project name="Conf Ant 01" default="main" basedir=".">
 	<description>
 		Testando Build com Ant
 	</description>
@@ -44,7 +44,7 @@
 	</target>
 
 	<target name="main" depends="limpar, inicio, compilacao, documentacao">
-		<description>Main do Build</description>
+		<description>Main 1 do Build</description>
 	</target>
 
 </project>
